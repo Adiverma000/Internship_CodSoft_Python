@@ -1,6 +1,7 @@
 # Internship_CodSoft_Python
 Hey Everyone My name is Aditya Verma i am from UttarPradesh Pratapgarh, currently i am pursuing B-Tech from Noida Institute of Engineering and Technology.
 ## About this project
+# Task 1
 This Python script is a console-based To-Do List Manager that allows a user to manage tasks interactively. The application supports adding, viewing, completing, and deleting tasks.
 1. Menu Display Function
 - This function displays the available actions (options 1–5).
