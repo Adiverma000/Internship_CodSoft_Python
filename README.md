@@ -33,6 +33,8 @@ This Python script is a console-based To-Do List Manager that allows a user to m
 5 → Exit
 
 # Task 2
+## The Password Generator Program
+This program is a simple password generator written in Python. Its purpose is to create random, secure passwords based on the length the user chooses.
 ## Main Steps of the Program
 
 1. Imports / Setup
