@@ -31,3 +31,28 @@ This Python script is a console-based To-Do List Manager that allows a user to m
 3 → Mark completed
 4 → Delete task
 5 → Exit
+
+# Task 2
+## Main Steps of the Program
+
+1. Imports / Setup
+- The program uses two built-in Python modules:
+- One module provides functions to generate random values.
+- The other module contains ready-made sets of characters like all letters, all digits, and  punctuation symbols.
+
+2. Password Creation Function
+- The program defines a function to generate a password.
+- First, it creates a pool of characters by combining uppercase letters, lowercase letters, digits, and punctuation marks.
+- Then, it randomly selects characters from this pool one by one until the password reaches the length requested by the user.
+- Finally, it joins these characters together and returns the completed password.
+
+3. User Interaction (Menu Function)
+- When the program starts, it greets the user and asks them to enter the desired length of the password.
+- The input is then converted into a number.
+- If the input is not a valid number, the program shows an error message.
+- If the number entered is less than 4, the program also shows an error message because a password shorter than 4 characters is too weak.
+- If the input is valid, the program calls the password generator function and then displays the generated password to the user.
+
+4. Program Execution
+- At the end, the program makes sure that this whole process runs only when the file is executed directly.
+- It then starts by showing the menu and waiting for the user’s input
