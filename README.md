@@ -58,3 +58,26 @@ This program is a simple password generator written in Python. Its purpose is to
 4. Program Execution
 - At the end, the program makes sure that this whole process runs only when the file is executed directly.
 - It then starts by showing the menu and waiting for the user’s input
+
+# Task 3
+## The Calculator
+This script creates a simple Calculator using Python classes and user input.
+
+1. Calculator Class
+- __init__(a, b): Stores two numbers.
+- add(): Returns sum.
+- subtract(): Returns difference.
+- multiply(): Returns product.
+- divide(): Returns quotient, but if the second number is zero, prints an error and returns None.
+2. main() Function
+- Asks the user for two numbers.
+- Displays a menu of operations (1–4).
+- Reads the user’s choice.
+- Creates a Calculator object and calls the chosen method.
+- Prints the result.
+3. Error Handling
+- Uses try...except to check:
+- If user input is not a valid number.
+- If operation choice is not an integer between 1–4.
+4. Special Case
+- Division by zero is handled safely: instead of crashing, it shows “Error: Division by zero!”.
